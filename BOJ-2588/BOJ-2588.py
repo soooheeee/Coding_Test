@@ -20,9 +20,19 @@
 # print(a * (b//100))
 # print(a * b)
 
-a,b=map(int,input().split())
+# a,b=map(int,input().split())
 
-print(a * (b%10))
-print(a * ((b%100)//10))
-print(a * (b//100))
-print(a * b)
+# print(a * (b%10))
+# print(a * ((b%100)//10))
+# print(a * (b//100))
+# print(a * b)
+
+# A=int(input())
+# B=input()
+
+# for idx in range(2, -1, -1):
+#     print(A*int(B[idx]))
+# print(A*int(B))
+
+a,b = int(input()),input()
+print(*[a*int(p) for p in b][::-1], a*int(b))
