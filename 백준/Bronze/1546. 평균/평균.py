@@ -18,3 +18,9 @@ avg=sum/n
 # print(li)
 # print(max)
 print(avg)
+
+# 두 번째 코드 
+# 내장 함수 사용
+N=int(input())
+L=list(map(int,input().split()))
+print(sum(L)/max(L)*100/N)
