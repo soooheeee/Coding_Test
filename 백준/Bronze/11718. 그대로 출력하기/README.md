@@ -26,3 +26,19 @@
 
  <p>입력받은 그대로 출력한다.</p>
 
+
+# 틀린 방법 
+import sys
+input = sys.stdin.readline
+
+while True :
+    try : # 입력값이 계속 들어오면 그대로 프린트
+        print(input())
+    except EOFError: # 입력값이 안 들어오면EOF(End Of File)을 사용해서 이 상태가 되면 break를 걸어준다
+        break
+이렇게 코드를 치게 되면 틀린 코드라고 뜬다 
+왜그런지 찾아보니 
+![image](https://github.com/soooheeee/Coding_Test/assets/129060841/d5468152-cfea-4001-8af0-694e0f511b34)
+![image](https://github.com/soooheeee/Coding_Test/assets/129060841/20f04078-ad11-45b4-b890-7576b08eb1e4)
+
+https://juni-tech.tistory.com/10
