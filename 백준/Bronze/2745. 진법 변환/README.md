@@ -32,3 +32,8 @@
 
  <p>첫째 줄에 B진법 수 N을 10진법으로 출력한다.</p>
 
+ #아이디어 및 사용 기능
+enumerate()함수란?
+for문에서 순서와 요소를 동시에 반환 받아야 하는 경우가 있는데 이때 파이썬 내장 함수인 enumerate()을 사용하여 순서와 요소 값을 동시에 반환받을 수 있다.
+ https://ctkim.tistory.com/entry/python-enumerate-function
+
