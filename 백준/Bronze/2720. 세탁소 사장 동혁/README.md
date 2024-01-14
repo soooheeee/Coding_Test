@@ -36,3 +36,11 @@
 
  <p>각 테스트케이스에 대해 필요한 쿼터의 개수, 다임의 개수, 니켈의 개수, 페니의 개수를 공백으로 구분하여 출력한다.</p>
 
+#아이디어 및 기능 
+
+<unpacking>
+print(*리스) or print(*튜플)
+
+ x = [10, 20, 30]
+print_number(*x)
+https://rabo0313.tistory.com/entry/Python-list%EC%95%9E%EC%97%90-%EB%B6%99%EC%9D%80-unpacking
