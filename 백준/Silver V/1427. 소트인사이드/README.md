@@ -26,3 +26,8 @@
 
  <p>첫째 줄에 자리수를 내림차순으로 정렬한 수를 출력한다.</p>
 
+### 참고한 블로그
+
+https://codechacha.com/ko/python-substring/
+
+https://dojang.io/mod/page/view.php?id=2286
