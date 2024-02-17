@@ -29,3 +29,4 @@
 ### 해야할 것
 
 내장함수를 사용하지 않고 푸는 방법에 대한 고찰
+https://yesdohyun.tistory.com/m/16
