@@ -21,3 +21,36 @@ while i < len(word):
         i+=1                # 그냥 증가시킨다
 
 print("".join(word))
+
+#스택 사용하기
+
+# from collections import deque
+# a = input()+'\n' # 사용자로부터 문자열을 입력받음
+# flag = False # flag 변수 초기화
+# stack = deque() # deque() 함수를 사용하여 스택(Stack)을 생성
+# result = '' # 결과값을 저장할 변수 초기화
+
+# for i in a: 
+#     if not flag: 
+#         if i == '\n' or i == ' ': # 공백이나 개행 문자인 경우
+#             while stack: 
+#                 result += stack.pop() 
+#             result += " " 
+
+#         else: # "<"와 ">" 사이에 있는 문자열이 아닌 경우
+#             if i == "<": 
+#                 while stack: # 이 부분이 중요합니다.
+#                     result += stack.pop() 
+#                 flag = True 
+
+#             stack.append(i) # 스택(Stack)에 데이터를 추가
+
+#     else: # flag가 True인 경우
+#         flag = True # flag를 True로 유지
+#         stack.append(i) 
+#         if i == ">": 
+#             while  stack: 
+#                 result += stack.popleft() # 스택(Stack)에서 데이터를 popleft()하여 결과값에 추가
+#             flag = False 
+
+# print(result) # 결과값을 출력
