@@ -4,3 +4,4 @@
 ## 3    https://jaeworld.github.io/python/python_lambda_usage/
 ## 4    https://www.guru99.com/ko/python-lambda-function.html
 ## 5    https://velog.io/@k_bobin/Python-%EB%9E%8C%EB%8B%A4lambda%ED%95%A8%EC%88%98-%EB%A7%88%EC%8A%A4%ED%84%B0%ED%95%98%EA%B8%B0
+## 6    https://ctkim.tistory.com/entry/%EB%9E%8C%EB%8B%A4-%ED%95%A8%EC%88%98
