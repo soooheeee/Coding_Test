@@ -2,16 +2,15 @@ score_legend = ['name', 'Math', 'Eng', 'History']
 score = {'John': [70,80,90], 'Tom':[90,95,98], 'Mary':[95,85,99]}
 print(score_legend)
 
-a=[]
+student_score=[]
 sum=0
 
-print(score_legend)
-
+# print(score_legend)
 
 for k,v in score.items():
     for i in range(3):
-        a.append(v[i])
-        print(v[i])
+        student_score.append(v[i])
+        # print(v[i])
 
         sum+=v[i]
 
