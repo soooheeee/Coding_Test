@@ -3,7 +3,6 @@ input = sys.stdin.readline
 
 s = input()
 li=[]
-li_2=[]
 
 for i in range(len(s)-1):
     li.append(s[i:-1])
